@@ -22,7 +22,10 @@ struct IfLetGuardBootcamp: View {
                         .font(.title)
                 }
                 
-                if isLoading {
+                if
+                    let isLoading = isLoading,
+                    isLoading
+                {
                     ProgressView()
                 }
                 
