@@ -23,6 +23,7 @@
 		174AA9E02A9F168A00608776 /* ListSwipeActionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174AA9DF2A9F168A00608776 /* ListSwipeActionsBootcamp.swift */; };
 		174AA9E32A9F1DC000608776 /* BadgesBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174AA9E22A9F1DC000608776 /* BadgesBootcamp.swift */; };
 		174AA9E62A9F1F6B00608776 /* FocusStateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174AA9E52A9F1F6B00608776 /* FocusStateBootcamp.swift */; };
+		174AA9E92A9F326C00608776 /* SubmitTextFieldBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174AA9E82A9F326C00608776 /* SubmitTextFieldBootcamp.swift */; };
 		1756187D2A92053B008F5471 /* ListBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1756187C2A92053B008F5471 /* ListBootcamp.swift */; };
 		175618802A922FDC008F5471 /* AlertBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1756187F2A922FDC008F5471 /* AlertBootcamp.swift */; };
 		17586B272A50A65100D724B7 /* StacksBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17586B262A50A65100D724B7 /* StacksBootcamp.swift */; };
@@ -92,6 +93,7 @@
 		174AA9DF2A9F168A00608776 /* ListSwipeActionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSwipeActionsBootcamp.swift; sourceTree = "<group>"; };
 		174AA9E22A9F1DC000608776 /* BadgesBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgesBootcamp.swift; sourceTree = "<group>"; };
 		174AA9E52A9F1F6B00608776 /* FocusStateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusStateBootcamp.swift; sourceTree = "<group>"; };
+		174AA9E82A9F326C00608776 /* SubmitTextFieldBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubmitTextFieldBootcamp.swift; sourceTree = "<group>"; };
 		1756187C2A92053B008F5471 /* ListBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListBootcamp.swift; sourceTree = "<group>"; };
 		1756187F2A922FDC008F5471 /* AlertBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBootcamp.swift; sourceTree = "<group>"; };
 		17586B262A50A65100D724B7 /* StacksBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StacksBootcamp.swift; sourceTree = "<group>"; };
@@ -284,6 +286,14 @@
 				174AA9E52A9F1F6B00608776 /* FocusStateBootcamp.swift */,
 			);
 			path = FocusStateBootcamp;
+			sourceTree = "<group>";
+		};
+		174AA9E72A9F320200608776 /* SubmitTextFieldBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				174AA9E82A9F326C00608776 /* SubmitTextFieldBootcamp.swift */,
+			);
+			path = SubmitTextFieldBootcamp;
 			sourceTree = "<group>";
 		};
 		1756187B2A92051C008F5471 /* ListBootcamp */ = {
@@ -507,6 +517,7 @@
 				17AD072B2A5DC07F00AB0D70 /* StateBootcamp */,
 				17586B252A50A63D00D724B7 /* StacksBootcamp */,
 				17CFCCDC2A9644DE00CA348E /* StepperBootcamp */,
+				174AA9E72A9F320200608776 /* SubmitTextFieldBootcamp */,
 				17CFCCE22A9654C600CA348E /* TabViewBootcamp */,
 				17F42F0E2A973DF2006DA110 /* TapGestureBootcamp */,
 				17FBD8D62A61B7DE00F4B2F2 /* TernaryBootcamp */,
@@ -834,6 +845,7 @@
 				17F42F0A2A9735AF006DA110 /* OnAppearBootcamp.swift in Sources */,
 				17CFCCEA2A966B9F00CA348E /* DocumentationBootcamp.swift in Sources */,
 				17586B272A50A65100D724B7 /* StacksBootcamp.swift in Sources */,
+				174AA9E92A9F326C00608776 /* SubmitTextFieldBootcamp.swift in Sources */,
 				17ABA47B2A8F61F100A995AC /* PopoverBootcamp.swift in Sources */,
 				17C852A72A9DFD6500E84A72 /* ProfileView.swift in Sources */,
 				17CFCCE72A96675B00CA348E /* DarkModeBootcamp.swift in Sources */,
