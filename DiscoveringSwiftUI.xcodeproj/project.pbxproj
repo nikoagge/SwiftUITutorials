@@ -43,6 +43,7 @@
 		177FFB642A5EE83E00902095 /* ExtractedFunctionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177FFB632A5EE83E00902095 /* ExtractedFunctionsBootcamp.swift */; };
 		17865F3B2A98EE7400660F3B /* EnvironmentObjectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17865F3A2A98EE7400660F3B /* EnvironmentObjectBootcamp.swift */; };
 		179788682A62BFA2007CE04A /* AnimationTimingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179788672A62BFA2007CE04A /* AnimationTimingBootcamp.swift */; };
+		179AE0432B25AE75002DC845 /* NativePopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179AE0422B25AE75002DC845 /* NativePopoverBootcamp.swift */; };
 		17A369A92A5466B300A35F48 /* InitializerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A369A82A5466B300A35F48 /* InitializerBootcamp.swift */; };
 		17AAF62A2AA07B7400E4AE7D /* NavigationStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AAF6292AA07B7400E4AE7D /* NavigationStackBootcamp.swift */; };
 		17ABA47B2A8F61F100A995AC /* PopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ABA47A2A8F61F100A995AC /* PopoverBootcamp.swift */; };
@@ -120,6 +121,7 @@
 		177FFB632A5EE83E00902095 /* ExtractedFunctionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedFunctionsBootcamp.swift; sourceTree = "<group>"; };
 		17865F3A2A98EE7400660F3B /* EnvironmentObjectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectBootcamp.swift; sourceTree = "<group>"; };
 		179788672A62BFA2007CE04A /* AnimationTimingBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTimingBootcamp.swift; sourceTree = "<group>"; };
+		179AE0422B25AE75002DC845 /* NativePopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativePopoverBootcamp.swift; sourceTree = "<group>"; };
 		17A369A82A5466B300A35F48 /* InitializerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBootcamp.swift; sourceTree = "<group>"; };
 		17AAF6292AA07B7400E4AE7D /* NavigationStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBootcamp.swift; sourceTree = "<group>"; };
 		17ABA47A2A8F61F100A995AC /* PopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverBootcamp.swift; sourceTree = "<group>"; };
@@ -456,6 +458,14 @@
 			path = AnimationTimingBootcamp;
 			sourceTree = "<group>";
 		};
+		179AE0412B25AE50002DC845 /* NativePopoverBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				179AE0422B25AE75002DC845 /* NativePopoverBootcamp.swift */,
+			);
+			path = NativePopoverBootcamp;
+			sourceTree = "<group>";
+		};
 		17A369A72A54669B00A35F48 /* InitializerBootcamp */ = {
 			isa = PBXGroup;
 			children = (
@@ -576,6 +586,7 @@
 				1756187B2A92051C008F5471 /* ListBootcamp */,
 				174AA9DE2A9F165300608776 /* ListSwipeActionsBootcamp */,
 				17655A4F2AA399C8003AEEEE /* MenuBootcamp */,
+				179AE0412B25AE50002DC845 /* NativePopoverBootcamp */,
 				17AAF6282AA07B5500E4AE7D /* NavigationStackBootcamp */,
 				17ABA47C2A8F933C00A995AC /* NavigationViewBootcamp */,
 				17F42F082A973586006DA110 /* OnAppearBootcamp */,
@@ -941,6 +952,7 @@
 				17CFCCD82A962B2000CA348E /* ColorPickerBootcamp.swift in Sources */,
 				17C852AD2A9E1F2A00E84A72 /* BackgroundMaterialsBootcamp.swift in Sources */,
 				17FBD8D22A619E7300F4B2F2 /* BindingBootcamp.swift in Sources */,
+				179AE0432B25AE75002DC845 /* NativePopoverBootcamp.swift in Sources */,
 				17F2AF162A52A14100F03FFC /* SpacerBootcamp.swift in Sources */,
 				17CFCCE12A96516400CA348E /* SliderBootcamp.swift in Sources */,
 				17FBD8DB2A61B91200F4B2F2 /* AnimationBootcamp.swift in Sources */,
@@ -1087,6 +1099,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1116,6 +1129,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
