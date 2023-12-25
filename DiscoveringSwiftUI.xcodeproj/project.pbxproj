@@ -38,6 +38,7 @@
 		176B01242B3967E200FB7A6E /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B01232B3967E200FB7A6E /* MagnificationGestureBootcamp.swift */; };
 		176B01272B396C6100FB7A6E /* RotationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B01262B396C6100FB7A6E /* RotationGestureBootcamp.swift */; };
 		176B012A2B396DB300FB7A6E /* DragGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B01292B396DB300FB7A6E /* DragGestureBootcamp.swift */; };
+		176B012D2B39834E00FB7A6E /* ScrollViewReaderBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176B012C2B39834E00FB7A6E /* ScrollViewReaderBootcamp.swift */; };
 		1777EECC2A9C8B52003D0A59 /* AppStorageBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1777EECB2A9C8B52003D0A59 /* AppStorageBootcamp.swift */; };
 		1777EECF2A9CC6E1003D0A59 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1777EECE2A9CC6E1003D0A59 /* IntroView.swift */; };
 		1777EED12A9CCC0F003D0A59 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1777EED02A9CCC0F003D0A59 /* OnboardingView.swift */; };
@@ -122,6 +123,7 @@
 		176B01232B3967E200FB7A6E /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 		176B01262B396C6100FB7A6E /* RotationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationGestureBootcamp.swift; sourceTree = "<group>"; };
 		176B01292B396DB300FB7A6E /* DragGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureBootcamp.swift; sourceTree = "<group>"; };
+		176B012C2B39834E00FB7A6E /* ScrollViewReaderBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewReaderBootcamp.swift; sourceTree = "<group>"; };
 		1777EECB2A9C8B52003D0A59 /* AppStorageBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageBootcamp.swift; sourceTree = "<group>"; };
 		1777EECE2A9CC6E1003D0A59 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
 		1777EED02A9CCC0F003D0A59 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
@@ -437,6 +439,14 @@
 			path = DragGestureBootcamp;
 			sourceTree = "<group>";
 		};
+		176B012B2B39833400FB7A6E /* ScrollViewReaderBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				176B012C2B39834E00FB7A6E /* ScrollViewReaderBootcamp.swift */,
+			);
+			path = ScrollViewReaderBootcamp;
+			sourceTree = "<group>";
+		};
 		1777EECA2A9C8B3C003D0A59 /* AppStorageBootcamp */ = {
 			isa = PBXGroup;
 			children = (
@@ -534,6 +544,7 @@
 				17A3BA922B38BD8A0015CD16 /* LongPressureGestureBootcamp */,
 				176B01222B3967C300FB7A6E /* MagnificationGestureBootcamp */,
 				176B01252B396C4B00FB7A6E /* RotationGestureBootcamp */,
+				176B012B2B39833400FB7A6E /* ScrollViewReaderBootcamp */,
 			);
 			path = IntermediateLevel;
 			sourceTree = "<group>";
@@ -1023,6 +1034,7 @@
 				17CFCCE72A96675B00CA348E /* DarkModeBootcamp.swift in Sources */,
 				179AE0462B25BDED002DC845 /* AnyLayoutBootcamp.swift in Sources */,
 				17CFCCDE2A9644F500CA348E /* StepperBootcamp.swift in Sources */,
+				176B012D2B39834E00FB7A6E /* ScrollViewReaderBootcamp.swift in Sources */,
 				17A3BA942B38BDA00015CD16 /* LongPressureGestureBootcampView.swift in Sources */,
 				17E2BCCB2A9341B900525190 /* ActionSheetBootcamp.swift in Sources */,
 				1777EED12A9CCC0F003D0A59 /* OnboardingView.swift in Sources */,
