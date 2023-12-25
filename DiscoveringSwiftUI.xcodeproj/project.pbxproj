@@ -47,6 +47,7 @@
 		179AE0462B25BDED002DC845 /* AnyLayoutBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179AE0452B25BDED002DC845 /* AnyLayoutBootcamp.swift */; };
 		179AE0492B25C228002DC845 /* ViewThatFitsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179AE0482B25C228002DC845 /* ViewThatFitsBootcamp.swift */; };
 		17A369A92A5466B300A35F48 /* InitializerBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A369A82A5466B300A35F48 /* InitializerBootcamp.swift */; };
+		17A3BA942B38BDA00015CD16 /* LongPressureGestureBootcampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A3BA932B38BDA00015CD16 /* LongPressureGestureBootcampView.swift */; };
 		17AAF62A2AA07B7400E4AE7D /* NavigationStackBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17AAF6292AA07B7400E4AE7D /* NavigationStackBootcamp.swift */; };
 		17ABA47B2A8F61F100A995AC /* PopoverBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ABA47A2A8F61F100A995AC /* PopoverBootcamp.swift */; };
 		17ABA47E2A8F935900A995AC /* NavigationViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17ABA47D2A8F935900A995AC /* NavigationViewBootcamp.swift */; };
@@ -127,6 +128,7 @@
 		179AE0452B25BDED002DC845 /* AnyLayoutBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyLayoutBootcamp.swift; sourceTree = "<group>"; };
 		179AE0482B25C228002DC845 /* ViewThatFitsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewThatFitsBootcamp.swift; sourceTree = "<group>"; };
 		17A369A82A5466B300A35F48 /* InitializerBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitializerBootcamp.swift; sourceTree = "<group>"; };
+		17A3BA932B38BDA00015CD16 /* LongPressureGestureBootcampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressureGestureBootcampView.swift; sourceTree = "<group>"; };
 		17AAF6292AA07B7400E4AE7D /* NavigationStackBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBootcamp.swift; sourceTree = "<group>"; };
 		17ABA47A2A8F61F100A995AC /* PopoverBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverBootcamp.swift; sourceTree = "<group>"; };
 		17ABA47D2A8F935900A995AC /* NavigationViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewBootcamp.swift; sourceTree = "<group>"; };
@@ -252,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				17C944282A4A2555000FB93D /* BeginnerLevel */,
+				17A3BA912B38BD0A0015CD16 /* IntermediateLevel */,
 				1730F6182A3DB74E0097C3EF /* DiscoveringSwiftUIApp.swift */,
 				1730F61A2A3DB74E0097C3EF /* ContentView.swift */,
 				1730F61C2A3DB7520097C3EF /* Assets.xcassets */,
@@ -492,6 +495,22 @@
 				17A369A82A5466B300A35F48 /* InitializerBootcamp.swift */,
 			);
 			path = InitializerBootcamp;
+			sourceTree = "<group>";
+		};
+		17A3BA912B38BD0A0015CD16 /* IntermediateLevel */ = {
+			isa = PBXGroup;
+			children = (
+				17A3BA922B38BD8A0015CD16 /* LongPressureGestureBootcamp */,
+			);
+			path = IntermediateLevel;
+			sourceTree = "<group>";
+		};
+		17A3BA922B38BD8A0015CD16 /* LongPressureGestureBootcamp */ = {
+			isa = PBXGroup;
+			children = (
+				17A3BA932B38BDA00015CD16 /* LongPressureGestureBootcampView.swift */,
+			);
+			path = LongPressureGestureBootcamp;
 			sourceTree = "<group>";
 		};
 		17AAF6282AA07B5500E4AE7D /* NavigationStackBootcamp */ = {
@@ -968,6 +987,7 @@
 				17CFCCE72A96675B00CA348E /* DarkModeBootcamp.swift in Sources */,
 				179AE0462B25BDED002DC845 /* AnyLayoutBootcamp.swift in Sources */,
 				17CFCCDE2A9644F500CA348E /* StepperBootcamp.swift in Sources */,
+				17A3BA942B38BDA00015CD16 /* LongPressureGestureBootcampView.swift in Sources */,
 				17E2BCCB2A9341B900525190 /* ActionSheetBootcamp.swift in Sources */,
 				1777EED12A9CCC0F003D0A59 /* OnboardingView.swift in Sources */,
 				174AA9E62A9F1F6B00608776 /* FocusStateBootcamp.swift in Sources */,
